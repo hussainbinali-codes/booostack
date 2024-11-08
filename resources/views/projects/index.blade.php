@@ -31,7 +31,6 @@
 <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
 </head>
-CynfoSyS26$
 <body>
     <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
