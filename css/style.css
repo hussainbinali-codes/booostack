@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #00B074;
+    --primary: #754596;
     --secondary: #2B9BFF;
     --light: #EFFDF5;
     --dark: #2B3940;
@@ -155,7 +155,7 @@
 .page-header .container {
     position: relative;
     padding: 45px 0 45px 35px;
-    border-left: 15px solid var(--primary);
+    border-left: 15px solid #ffffff !important;
 }
 
 .header-carousel .container::before,
@@ -168,7 +168,7 @@
     left: 0;
     width: 100px;
     height: 15px;
-    background: var(--primary);
+    background:  #ffffff !important;;
 }
 
 .header-carousel .container::after,
@@ -390,4 +390,59 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+.text-primary {
+    color: #754596 !important; /* Replace with your desired color code */
+}
+
+.btn-primary {
+    color: #754596 !important;
+    background-color:#754596 !important;
+    border-color:#754596 !important; /* Replace with your desired color code */
+}
+
+.btn-secondary {
+    color: #754596 !important;
+    background-color:#000000 !important;
+    border-color:#000000 !important; /* Replace with your desired color code */
+}
+.btn {
+    color: #ffffff !important; /* Replace with your desired color code */
+}
+
+.mb-0{
+    color: #754596 !important;
+}
+
+.bg-light {
+    background-color: #eddeff !important;
+}
+.btn-light {
+    background-color: #eddeff !important;
+    border-color: #eddeff !important;
+}
+
+.logo-class {
+    height: 50px; /* Default height */
+    width: auto;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .logo-class {
+        height: 40px; /* Slightly smaller for tablets and larger phones */
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-class {
+        height: 30px; /* Smaller for mobile devices */
+    }
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #000;
+    border-color: #2B3940;
 }
