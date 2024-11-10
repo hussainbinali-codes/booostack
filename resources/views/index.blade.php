@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>JobEntry - Job Portal Website Template</title>
+    <title>Booostack - Hire Top Talent</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -75,7 +75,7 @@
                     </div> -->
                     <a href="contact.html" class="nav-item nav-link">Join Our Talent Team</a>
                 </div>
-                <a href="" class="btn rounded-0 py-4 px-lg-5 d-none d-lg-block" style="background-color: #754596;">Hire Top Talent<i class="fa fa-arrow-right ms-3"></i></a>
+                <a href="/hire/flow" class="btn rounded-0 py-4 px-lg-5 d-none d-lg-block" style="background-color: #754596;">Hire Top Talent<i class="fa fa-arrow-right ms-3"></i></a>
             </div>
         </nav>
         <!-- Navbar End -->
